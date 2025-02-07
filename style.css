@@ -16,6 +16,39 @@
     color: #fff
 }
 
+#timepicker {
+    background-color: transparent !important; /* White background remove */
+    color: white !important; /* Selected time black color */
+   
+}
+
+#timepicker::-webkit-datetime-edit {
+    color: white !important; /* Selected time text black */
+}
+
+#timepicker::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Optional: Changes the color of the time picker icon */
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    height: 60px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #090c0f;
+    background-clip: padding-box;
+    border: 1px solid #21282f;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
 :-ms-input-placeholder {
     color: #fff
 }
@@ -199,7 +232,7 @@ h6 {
 
 p {
     padding: 0;
-    margin: 30px 0
+    margin: 10px 0;
 }
 
 strong {
@@ -468,7 +501,8 @@ select {
 
 .custom-select,
 select {
-    background: url(assets/images/select.png) no-repeat right 20px center/12px 8px
+    /* background: url(assets/images/select.png) no-repeat right 20px center/12px 8px */
+    background: black;
 }
 
 @media screen and (max-width:767px) {

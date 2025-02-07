@@ -58,6 +58,13 @@
                                     <option>2 Persons</option>
                                     <option>3 Persons</option>
                                     <option>4 Persons</option>
+                                    <option>5 Persons</option>
+                                    <option>6 Persons</option>
+                                    <option>7 Persons</option>
+                                    <option>8 Persons</option>
+                                    <option>9 Persons</option>
+                                    <option>10 Persons</option>
+
                                 </select>
                             </div>
                         </div>
@@ -69,8 +76,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <div class="kf-field">
-                                <input type="text" name="time" placeholder="Time" />
-                                <i class="far fa-clock"></i>
+                                <input type="time" id="timepicker" class="form-control" placeholder="Select Time">
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -309,3 +315,19 @@
 <!-- Footer -->
 
 <?php include 'footer.php'; ?>
+
+  <script>
+        $(document).ready(function () {
+            $('#timepicker').timepicker({
+                timeFormat: 'h:mm p',
+                interval: 15,
+                minTime: '6:00am',
+                maxTime: '11:30pm',
+                defaultTime: '10:00am',
+                startTime: '6:00am',
+                dynamic: false,
+                dropdown: true,
+                scrollbar: true
+            });
+        });
+    </script>

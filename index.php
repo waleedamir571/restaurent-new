@@ -17,7 +17,7 @@
 									Welcome to the Kaffen
 								</div>
 								<h2 class="name text-anim-1" data-splitting="chars">
-								lorem ipsum <br>lorem ipsum
+									The London <br>Coffee House
 								</h2>
 								<div class="kf-bts">
 									<a href="#" class="kf-btn">
@@ -44,7 +44,7 @@
 									Welcome to the Kaffen
 								</div>
 								<h2 class="name text-anim-1" data-splitting="chars">
-									The Paris<br>lorem ipsum
+									The Paris<br>Coffee House
 								</h2>
 								<div class="kf-bts">
 									<a href="#" class="kf-btn">
@@ -71,7 +71,7 @@
 									Welcome to the Kaffen
 								</div>
 								<h2 class="name text-anim-1" data-splitting="chars">
-								lorem ipsum <br>Good Vibes
+									Great Coffee <br>Good Vibes
 								</h2>
 								<div class="kf-bts">
 									<a href="#" class="kf-btn">
@@ -331,14 +331,17 @@
 							Why Choose Us
 						</div>
 						<h3 class="kf-title element-anim-1 scroll-animate" data-animate="active">
-							New London Coffee Founded For Extraordinary Test
+							At Dolly’s Hideaway – Crafted for an Extraordinary Taste
 						</h3>
 					</div>
 
 					<div class="kf-text element-anim-1 scroll-animate" data-animate="active">
 						<p>
-							Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque
-							laudantium, totam rem aperiam eaque ipsa quae abillo inventore veritatis
+							At Dolly’s Hideaway, we are dedicated to delivering a culinary experience like no other.
+							From carefully selected ingredients to masterfully crafted dishes, every bite is a journey
+							of flavor and passion.
+
+
 						</p>
 					</div>
 
@@ -349,9 +352,10 @@
 									<img src="images/choose_icon1.png" alt="" />
 								</div>
 								<div class="desc">
-									<h5 class="name">Natural Coffee Beans</h5>
-									<div class="subname">Sed ut perspiciatis unde omnis iste natus error
-										voluptate accusantium doloremque</div>
+									<h5 class="name"> A Culinary Escape Like No Other</h5>
+									<div class="subname">we are committed to delivering an exceptional dining
+										experience. From handpicked ingredients to expertly crafted dishes, every meal
+										is a celebration of flavor and quality.</div>
 								</div>
 							</li>
 							<li class="element-anim-1 scroll-animate" data-animate="active">
@@ -360,8 +364,9 @@
 								</div>
 								<div class="desc">
 									<h5 class="name">100% ISO Certification</h5>
-									<div class="subname">Sed ut perspiciatis unde omnis iste natus error
-										voluptate accusantium doloremque</div>
+									<div class="subname">we take pride in maintaining the highest standards of quality
+										and service. Our 100% ISO Certification reflects our commitment to excellence in
+										every dish we serve and every experience we create.</div>
 								</div>
 							</li>
 						</ul>

@@ -90,7 +90,7 @@
 
 						<!-- logo -->
 						<div class="kf-logo">
-							<a href="index-2.html"><img src="images/logo.png" alt="" /></a>
+							<a href="index.php"><img src="images/logo.png" alt="" /></a>
 						</div>
 
 					</div>

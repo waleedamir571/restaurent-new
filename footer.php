@@ -66,7 +66,7 @@
 								<li>
 									<i class="las la-phone"></i>
 									<em>Phone Number :</em>
-									(212) 541 7080
+									<a href="tel:(212) 541 7080">  <p>(212) 541 7080</p> </a>	
 								</li>
 							</ul>
 						</div>

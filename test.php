@@ -31,13 +31,12 @@
             object-fit: cover;
         }
 
-        /* Hide main content initially */
+        /* Main content */
         .header {
             position: relative;
             width: 100%;
             height: 100vh;
             overflow: hidden;
-            display: none;
         }
 
         /* Background video styles */
@@ -49,20 +48,6 @@
             width: 100vw;
             height: 100vh;
             object-fit: cover;
-        }
-
-        /* Mute/Unmute Button */
-        .sound-toggle {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: rgba(0, 0, 0, 0.6);
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            display: none; /* Initially hidden */
         }
 
     </style>
@@ -79,50 +64,56 @@
 
     <!-- Main Website Content -->
     <header class="header">
-        <video id="bgVideo" autoplay loop playsinline>
+        <video id="bgVideo" muted loop playsinline>
             <source src="images/video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-
-        <!-- Sound Toggle Button -->
-        <button id="soundToggle" class="sound-toggle">Unmute</button>
     </header>
 
     <script>
-        let loaderVideo = document.getElementById('loaderVideo');
-        let bgVideo = document.getElementById('bgVideo');
-        let loaderContainer = document.querySelector('.loader-container');
-        let mainHeader = document.querySelector('.header');
-        let soundToggle = document.getElementById('soundToggle');
+        const loaderVideo = document.getElementById('loaderVideo');
+        const bgVideo = document.getElementById('bgVideo');
+        const loaderContainer = document.querySelector('.loader-container');
+        let userInteracted = false;
 
-        // Jab loader video khatam ho, tabhi website dikhao
-        loaderVideo.onended = function() {
-            console.log("Loader video ended, showing website...");
-            loaderContainer.style.display = "none"; // Hide loader
-            mainHeader.style.display = "block"; // Show website
-            bgVideo.muted = true; // Default muted
-            bgVideo.play(); // Ensure video starts playing
-            soundToggle.style.display = "block"; // Show unmute button
+        // Start main video immediately (muted)
+        bgVideo.play().catch(error => console.log('Autoplay initialization:', error.message));
+
+        // Handle user interaction
+        const handleInteraction = () => {
+            if (!userInteracted) {
+                userInteracted = true;
+                // Try to unmute immediately on first interaction
+                bgVideo.muted = false;
+                document.removeEventListener('click', handleInteraction);
+                document.removeEventListener('touchstart', handleInteraction);
+            }
         };
 
-        // Function to enable sound with one click
-        function enableSound() {
-            if (bgVideo.muted) {
-                bgVideo.muted = false; // Unmute video
-                bgVideo.play(); // Play video with sound
-                soundToggle.innerText = "Mute";
-            } else {
-                bgVideo.muted = true; // Mute video
-                soundToggle.innerText = "Unmute";
+        document.addEventListener('click', handleInteraction);
+        document.addEventListener('touchstart', handleInteraction);
+
+        // When loader finishes
+        loaderVideo.onended = () => {
+            console.log("Loader video ended");
+            loaderContainer.style.display = "none";
+            
+            // Final attempt to enable sound if not already unmuted
+            if (userInteracted) {
+                bgVideo.muted = false;
             }
-        }
+            
+            // Ensure video is playing
+            bgVideo.play().catch(error => console.log('Main video play:', error.message));
+        };
 
-        // Button to manually mute/unmute (Fix for double click issue)
-        soundToggle.addEventListener("click", function(event) {
-            event.stopPropagation(); // Prevent double execution
-            enableSound();
-        });
-
+        // Fallback: If loader takes too long, hide it after 5 seconds
+        setTimeout(() => {
+            if (!loaderVideo.ended) {
+                loaderContainer.style.display = "none";
+                bgVideo.play().catch(error => console.log('Fallback video play:', error.message));
+            }
+        }, 5000);
     </script>
 
 </body>

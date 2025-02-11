@@ -109,11 +109,11 @@
 
 								</li>
 								<li>
-									<a href="#">Reservation</a>
+									<a href="book-a-table.php">Reservation</a>
 
 								</li>
 
-								<li><a href="#">Contacts</a></li>
+								<li><a href="contact-us.php">Contact Us</a></li>
 							</ul>
 						</div>
 

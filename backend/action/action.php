@@ -8,5 +8,5 @@ if (isset($_POST['form'])) {
             nameEmailPhoneMessageForm($_POST, $connection);
             break;
     }
-    header('Location: https://hancockpublishers.com/thank-you');
+    header('Location: ../../');
 }

@@ -29,9 +29,8 @@
 
 
             <div class="kf-reservation-form element-anim-1 scroll-animate" data-animate="active">
-
-              
-                <form id="rform" method="post">
+                <form id="rform" method="POST" action="backend/action/action.php">
+                    <input type="hidden" name="">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <div class="kf-field">

@@ -29,8 +29,8 @@
 
 
             <div class="kf-reservation-form element-anim-1 scroll-animate" data-animate="active">
-                <form id="rform" method="POST" action="backend/action/action.php">
-                    <input type="hidden" name="">
+                <form name="reservationForm" id="reservationForm" method="POST" action="backend/action/action.php">
+                    <input type="hidden" name="form" value="reservationForm">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <div class="kf-field">
@@ -46,23 +46,23 @@
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <div class="kf-field">
-                                <input type="tel" name="tel" placeholder="Phone Number" />
+                                <input type="tel" name="phone" placeholder="Phone Number" />
                                 <i class="fas fa-mobile-alt"></i>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <div class="kf-field">
                                 <select name="persons">
-                                    <option>1 Person</option>
-                                    <option>2 Persons</option>
-                                    <option>3 Persons</option>
-                                    <option>4 Persons</option>
-                                    <option>5 Persons</option>
-                                    <option>6 Persons</option>
-                                    <option>7 Persons</option>
-                                    <option>8 Persons</option>
-                                    <option>9 Persons</option>
-                                    <option>10 Persons</option>
+                                    <option value="1">1 Person</option>
+                                    <option value="2">2 Persons</option>
+                                    <option value="3">3 Persons</option>
+                                    <option value="4">4 Persons</option>
+                                    <option value="5">5 Persons</option>
+                                    <option value="6">6 Persons</option>
+                                    <option value="7">7 Persons</option>
+                                    <option value="8">8 Persons</option>
+                                    <option value="9">9 Persons</option>
+                                    <option value="10">10 Persons</option>
 
                                 </select>
                             </div>
@@ -75,15 +75,19 @@
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <div class="kf-field">
-                                <input type="time" id="timepicker" class="form-control" placeholder="Select Time">
+                                <input type="time" name="time" id="timepicker" class="form-control" placeholder="Select Time">
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="kf-bts">
-                                <a href="#" class="kf-btn" onclick="$('#rform').submit(); return false;">
+                                <button type="submit" class="kf-btn">
                                     <span>booking table</span>
                                     <i class="fas fa-chevron-right"></i>
-                                </a>
+                                </button>
+                                <!-- <a href="#"  onclick="$('#rform').submit(); return false;">
+                                    <span>booking table</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </a> -->
                             </div>
                         </div>
                     </div>

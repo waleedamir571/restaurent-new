@@ -12,7 +12,11 @@
             box-sizing: border-box;
         }
 
-        /* Fullscreen Loader */
+        body {
+            background: black; /* Ensure background is always black */
+        }
+
+        /* Fullscreen Loader with Fade-in Right Effect */
         .loader-container {
             position: fixed;
             top: 0;
@@ -24,6 +28,7 @@
             align-items: center;
             justify-content: center;
             z-index: 9999;
+            animation: fadeInRight 1s ease-in-out;
         }
 
         .loader-container video {
@@ -32,12 +37,41 @@
             object-fit: cover;
         }
 
+        /* Fade-in Right Animation for Loader */
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(100%);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        /* Fade-out Animation for Loader */
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
         /* Main content */
         .header {
             position: relative;
             width: 100%;
             height: 100vh;
             overflow: hidden;
+            opacity: 0;
+            /* Initially hidden */
+            transition: opacity 1s ease-in-out;
+            background: black; /* Ensure background is black */
         }
 
         /* Background video styles */
@@ -49,6 +83,19 @@
             width: 100vw;
             height: 100vh;
             object-fit: cover;
+        }
+
+        /* Fade-in Left Animation for Main Video */
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
         }
 
         /* Sound Toggle Button */
@@ -72,37 +119,15 @@
 
         @media (min-width: 320px) and (max-width: 480px) {
             .header video {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                width: 100vw;
-                height: 100vh;
                 object-fit: contain;
                 background: black;
-            }
-
-            .loader-container {
                 position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100vh;
-                background: black;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                z-index: 9999;
-                object-fit: contain;
             }
 
             .loader-container video {
-                width: 100%;
-                height: 100%;
                 object-fit: contain;
                 background-color: black;
             }
-
         }
     </style>
 </head>
@@ -110,7 +135,7 @@
 <body>
 
     <!-- Loader Section -->
-    <div class="loader-container">
+    <div class="loader-container" id="loader">
         <video id="loaderVideo" autoplay muted playsinline>
             <source src="images/loader.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -118,7 +143,7 @@
     </div>
 
     <!-- Main Website Content -->
-    <header class="header">
+    <header class="header" id="mainContent">
         <video id="bgVideo" muted loop playsinline>
             <source src="images/video.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -131,46 +156,51 @@
     <script>
         const loaderVideo = document.getElementById('loaderVideo');
         const bgVideo = document.getElementById('bgVideo');
-        const loaderContainer = document.querySelector('.loader-container');
+        const loaderContainer = document.getElementById('loader');
+        const mainContent = document.getElementById('mainContent');
         const soundToggle = document.getElementById('soundToggle');
         let userInteracted = false;
-
-        // Start main video immediately (muted)
-        bgVideo.play().catch(error => console.log('Autoplay initialization:', error.message));
-
-        // Handle user interaction
-        const handleInteraction = () => {
-            if (!userInteracted) {
-                userInteracted = true;
-                bgVideo.muted = false;
-                document.removeEventListener('click', handleInteraction);
-                document.removeEventListener('touchstart', handleInteraction);
-            }
-        };
-
-        document.addEventListener('click', handleInteraction);
-        document.addEventListener('touchstart', handleInteraction);
-
-        // When loader finishes
+    
+        // **Ensure Background Video Does NOT Play Initially**
+        bgVideo.pause(); 
+        bgVideo.muted = true;
+    
+        // Function to Start Video Only After Loader Ends
+        function startMainVideo() {
+            console.log("Starting main video...");
+            mainContent.style.opacity = "1"; // Fade-in background video
+            mainContent.style.animation = "fadeInLeft 1s ease-in-out"; // Apply fade-in left effect
+            bgVideo.play().catch(error => console.log('Main video play error:', error.message));
+        }
+    
+        // **When Loader Ends, Hide it and Start Video**
         loaderVideo.onended = () => {
             console.log("Loader video ended");
-            loaderContainer.style.display = "none";
-            if (userInteracted) {
-                bgVideo.muted = false;
-            }
-            bgVideo.play().catch(error => console.log('Main video play:', error.message));
+    
+            // **Fade out loader**
+            loaderContainer.style.animation = "fadeOut 1s forwards";
+    
+            setTimeout(() => {
+                loaderContainer.style.display = "none"; // Hide loader
+                startMainVideo(); // Now start main video
+            }, 1000); // Wait for fadeOut animation to complete
         };
-
-        // Fallback: If loader takes too long, hide it after 5 seconds
+    
+        // **Fallback: Hide Loader after 7 seconds if it doesn’t end**
         setTimeout(() => {
             if (!loaderVideo.ended) {
-                loaderContainer.style.display = "none";
-                bgVideo.play().catch(error => console.log('Fallback video play:', error.message));
+                loaderContainer.style.animation = "fadeOut 1s forwards";
+                setTimeout(() => {
+                    loaderContainer.style.display = "none";
+                    startMainVideo(); // Now start main video
+                }, 1000);
             }
-        }, 5000);
-
-        // Toggle Sound On/Off
-        soundToggle.addEventListener('click', () => {
+        }, 7000);
+    
+        // ✅ **Fixed Sound Toggle Button (Works on Mobile & Desktop)**
+        soundToggle.addEventListener('click', (event) => {
+            event.preventDefault(); // Prevent button click from affecting video playback
+    
             if (bgVideo.muted) {
                 bgVideo.muted = false;
                 soundToggle.textContent = "Sound Off";
@@ -179,8 +209,10 @@
                 soundToggle.textContent = "Sound On";
             }
         });
-
+    
     </script>
+    
+
 
 </body>
 

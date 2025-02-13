@@ -126,7 +126,10 @@
 
 					<div class="kf-about-quote element-anim-1 scroll-animate" data-animate="active">
 						<img src="images/quote_img.png" alt="" />
-						<div>Quis autem vel eum iure reprehenderit in ealuptate velit esse molestiae</div>
+						<div>
+							I had an amazing birthday dinner here with my sister's. The food was
+							great and the DJ was awesome.
+						</div>
 					</div>
 
 				</div>
@@ -674,8 +677,8 @@
 	<section class="section kf-cta kf-parallax" style="background-image: url(images/home/Section.png);">
 		<div class="container">
 
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+			<div class="row text-center">
+				<div class="col-xs-12 col-sm-12 col-md-12 ">
 
 					<div class="kf-titles">
 						<div class="kf-subtitle element-anim-1 scroll-animate" data-animate="active">
@@ -684,15 +687,21 @@
 						<h3 class="kf-title element-anim-1 scroll-animate" data-animate="active">
 							Booking Table For Your & Family Members
 						</h3>
+						<br>
+						<div class="kf-field">
+										<input type="text" name="email" class="form-control" placeholder="email">
+									</div>
+									<br>
+									<a href="#" class="kf-btn element-anim-1 scroll-animate" data-animate="active">
+						<span>Submit</span>
+						<i class="fas fa-chevron-right"></i>
+					</a>
 					</div>
 
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
 
-					<a href="#" class="kf-btn element-anim-1 scroll-animate" data-animate="active">
-						<span>booking table</span>
-						<i class="fas fa-chevron-right"></i>
-					</a>
+					
 
 				</div>
 			</div>

@@ -453,34 +453,40 @@
     </section>
 
     <!-- Section CTA -->
-    <section class="section kf-cta kf-parallax" style="background-image: url(images/about/about-f.png);">
-        <div class="container">
+    <section class="section kf-cta kf-parallax" style="background-image: url(images/home/Section.png);">
+		<div class="container">
 
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+			<div class="row text-center">
+				<div class="col-xs-12 col-sm-12 col-md-12 ">
 
-                    <div class="kf-titles">
-                        <div class="kf-subtitle element-anim-1 scroll-animate" data-animate="active">
-                            Need a Table On Coffee House
-                        </div>
-                        <h3 class="kf-title element-anim-1 scroll-animate" data-animate="active">
-                            Booking Table For Your & Family Members
-                        </h3>
-                    </div>
+					<div class="kf-titles">
+						<div class="kf-subtitle element-anim-1 scroll-animate" data-animate="active">
+							Need a Table On Coffee House
+						</div>
+						<h3 class="kf-title element-anim-1 scroll-animate" data-animate="active">
+							Booking Table For Your & Family Members
+						</h3>
+						<br>
+						<div class="kf-field">
+										<input type="text" name="email" class="form-control" placeholder="email">
+									</div>
+									<br>
+									<a href="#" class="kf-btn element-anim-1 scroll-animate" data-animate="active">
+						<span>Submit</span>
+						<i class="fas fa-chevron-right"></i>
+					</a>
+					</div>
 
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
 
-                    <a href="reservation.html" class="kf-btn element-anim-1 scroll-animate" data-animate="active">
-                        <span>booking table</span>
-                        <i class="fas fa-chevron-right"></i>
-                    </a>
+					
 
-                </div>
-            </div>
+				</div>
+			</div>
 
-        </div>
-    </section>
+		</div>
+	</section>
 
 </div>
 

@@ -90,7 +90,7 @@
 
 						<!-- logo -->
 						<div class="kf-logo">
-							<a href="index.php"><img src="images/logo.png" alt="" /></a>
+							<a href="index"><img src="images/logo.png" alt="" /></a>
 						</div>
 
 					</div>
@@ -100,20 +100,21 @@
 						<div class="kf-main-menu">
 							<ul>
 								<li>
-									<a href="index.php">Home</a>
+									<a href="index">Home</a>
 
 								</li>
-								<li><a href="about.php">About</a></li>
+								<li><a href="about">About</a></li>
 								<li>
-									<a href="menu.php">Menu</a>
+									<a href="menu">Menu</a>
 
 								</li>
 								<li>
-									<a href="book-a-table.php">Reservation</a>
+									<a
+										href="https://www.opentable.com/r/dolly-varden-new-york?lang=EN&ref=18014&sp=ppc_g_us_restaurants&cmid=12654247124&aid=130824900160&tid=kwd-1408786232152&locp=9067609&loci=9004072&mt=&nw=g&d=c&cid=551855731420&pos=&gclid=CjwKCAjwj42UBhAAEiwACIhADtV3ns0DJYvE-0-ElmAzRCp_4OoMlRJAJr6E77NjzBjbI9GsPJC7WRoCkjsQAvD_BwE">Reservation</a>
 
 								</li>
 
-								<li><a href="contact-us.php">Contact Us</a></li>
+								<li><a href="contact-us">Contact Us</a></li>
 							</ul>
 						</div>
 
@@ -124,7 +125,8 @@
 						<a href="#" class="kf-menu-btn"><span></span></a>
 
 						<!-- btn -->
-						<a href="book-a-table.php" class="kf-btn h-btn">
+						<a href="https://www.opentable.com/r/dolly-varden-new-york?lang=EN&ref=18014&sp=ppc_g_us_restaurants&cmid=12654247124&aid=130824900160&tid=kwd-1408786232152&locp=9067609&loci=9004072&mt=&nw=g&d=c&cid=551855731420&pos=&gclid=CjwKCAjwj42UBhAAEiwACIhADtV3ns0DJYvE-0-ElmAzRCp_4OoMlRJAJr6E77NjzBjbI9GsPJC7WRoCkjsQAvD_BwE"
+							class="kf-btn h-btn">
 							<span>Book a table</span>
 						</a>
 
@@ -139,12 +141,12 @@
 				<div class="kf-main-menu">
 					<ul>
 						<li>
-							<a href="index.php">Home</a>
+							<a href="index">Home</a>
 
 						</li>
-						<li><a href="about.php">About</a></li>
+						<li><a href="about">About</a></li>
 						<li>
-							<a href="menu.php">Menu</a>
+							<a href="menu">Menu</a>
 
 						</li>
 						<li>

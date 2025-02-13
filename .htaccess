@@ -1,0 +1,15 @@
+RewriteEngine On
+
+# .php extension remove karein
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Agar user bina slash ke directory access kare, toh usko sahi URL de
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+[^/])$ $1/ [R=301,L]
+
+# Agar user bina .php likhe page access kare, toh sahi file load ho
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]

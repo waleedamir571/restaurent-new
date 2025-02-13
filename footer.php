@@ -112,7 +112,7 @@
 
 						<!-- copyright -->
 						<div class="kf-copyright element-anim-1 scroll-animate" data-animate="active">
-							Copyright © 2024 lorem ipsum. All Rights Reserved.
+							Copyright © 2025 lorem ipsum. All Rights Reserved.
 						</div>
 
 					</div>

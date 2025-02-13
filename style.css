@@ -30,6 +30,11 @@
     filter: invert(1); /* Optional: Changes the color of the time picker icon */
 }
 
+input.form-control {
+    background: white !important;
+    color: white !important;
+}
+
 .form-control {
     display: block;
     width: 100%;

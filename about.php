@@ -26,14 +26,15 @@
                             Why Choose Us
                         </div>
                         <h3 class="kf-title element-anim-1 scroll-animate" data-animate="active">
-                            New London Coffee Founded For Extraordinary Test
+                            New London Coffee Founded For Extraordinary taste
                         </h3>
                     </div>
 
                     <div class="kf-text element-anim-1 scroll-animate" data-animate="active">
                         <p>
-                            Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque
-                            laudantium, totam rem aperiam eaque ipsa quae abillo inventore veritatis
+                            At Dolly’s Hideaway, we serve delicious, high-quality cuisine made with fresh ingredients
+                            and a passion for flavor. Enjoy a warm ambiance, exceptional service, and a menu crafted to
+                            delight every palate.
                         </p>
                     </div>
 
@@ -41,22 +42,22 @@
                         <ul>
                             <li class="element-anim-1 scroll-animate" data-animate="active">
                                 <div class="icon">
-                                    <img src="images/choose_icon1.png" alt="" />
+                                    <img src="images/home/restaurant 1.png" alt="" />
                                 </div>
                                 <div class="desc">
-                                    <h5 class="name">Natural Coffee Beans</h5>
-                                    <div class="subname">Sed ut perspiciatis unde omnis iste natus error voluptate
-                                        accusantium doloremque</div>
+                                    <h5 class="name">Fresh & Flavorful</h5>
+                                    <div class="subname">Our chefs use the finest ingredients to create dishes bursting
+                                        with authentic flavors, ensuring every bite is a delight.</div>
                                 </div>
                             </li>
                             <li class="element-anim-1 scroll-animate" data-animate="active">
                                 <div class="icon">
-                                    <img src="images/choose_icon2.png" alt="" />
+                                    <img src="images/home/cocktail 1.png" alt="" />
                                 </div>
                                 <div class="desc">
-                                    <h5 class="name">100% ISO Certification</h5>
-                                    <div class="subname">Sed ut perspiciatis unde omnis iste natus error voluptate
-                                        accusantium doloremque</div>
+                                    <h5 class="name">Unmatched Hospitality</h5>
+                                    <div class="subname">From the moment you walk in, our friendly staff is dedicated to
+                                        making your visit comfortable, enjoyable, and memorable.</div>
                                 </div>
                             </li>
                         </ul>
@@ -93,7 +94,7 @@
                             <div class="num">256+</div>
                             <div class="desc">
                                 <h5 class="name">Premium Clients</h5>
-                                <div class="subname">Sed ut perspiciatis unde</div>
+                                <div class="subname">Taste the Excellence</div>
                             </div>
                         </div>
                     </div>
@@ -106,7 +107,7 @@
                             <div class="num">36+</div>
                             <div class="desc">
                                 <h5 class="name">Professional Chefs</h5>
-                                <div class="subname">Sed ut perspiciatis unde</div>
+                                <div class="subname">Taste the Excellence</div>
                             </div>
                         </div>
                     </div>
@@ -119,7 +120,7 @@
                             <div class="num">753+</div>
                             <div class="desc">
                                 <h5 class="name">Winning Awards</h5>
-                                <div class="subname">Sed ut perspiciatis unde</div>
+                                <div class="subname">Taste the Excellence</div>
                             </div>
                         </div>
                     </div>
@@ -326,7 +327,7 @@
 
     <!-- Section Testimonials Carousel -->
     <section class="section kf-testimonials kf-testimonials-2 section-bg"
-        style="background-image: url(images/testimonials_bg2.jpg);">
+        style="background-image: url(images/home/bg-testi.png);">
         <div class="container">
 
             <div class="kf-titles align-center">
@@ -454,39 +455,39 @@
 
     <!-- Section CTA -->
     <section class="section kf-cta kf-parallax" style="background-image: url(images/home/Section.png);">
-		<div class="container">
+        <div class="container">
 
-			<div class="row text-center">
-				<div class="col-xs-12 col-sm-12 col-md-12 ">
+            <div class="row text-center">
+                <div class="col-xs-12 col-sm-12 col-md-12 ">
 
-					<div class="kf-titles">
-						<div class="kf-subtitle element-anim-1 scroll-animate" data-animate="active">
-							Need a Table On Coffee House
-						</div>
-						<h3 class="kf-title element-anim-1 scroll-animate" data-animate="active">
-							Booking Table For Your & Family Members
-						</h3>
-						<br>
-						<div class="kf-field">
-										<input type="text" name="email" class="form-control" placeholder="email">
-									</div>
-									<br>
-									<a href="#" class="kf-btn element-anim-1 scroll-animate" data-animate="active">
-						<span>Submit</span>
-						<i class="fas fa-chevron-right"></i>
-					</a>
-					</div>
+                    <div class="kf-titles">
+                        <div class="kf-subtitle element-anim-1 scroll-animate" data-animate="active">
+                            Need a Table On Coffee House
+                        </div>
+                        <h3 class="kf-title element-anim-1 scroll-animate" data-animate="active">
+                            Booking Table For Your & Family Members
+                        </h3>
+                        <br>
+                        <div class="kf-field">
+                            <input type="text" name="email" class="form-control" placeholder="email">
+                        </div>
+                        <br>
+                        <a href="#" class="kf-btn element-anim-1 scroll-animate" data-animate="active">
+                            <span>Submit</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
 
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
 
-					
 
-				</div>
-			</div>
 
-		</div>
-	</section>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
 </div>
 

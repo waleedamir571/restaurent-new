@@ -14,10 +14,11 @@
 						<div class="container">
 							<div class="description align-left element-anim-1">
 								<div class="subtitles">
-									Welcome to the Kaffen
+									Welcome to Dolly’s Hideaway
 								</div>
 								<h2 class="name text-anim-1" data-splitting="chars">
-									The London <br>Coffee House
+									Reserve Your
+									<br>Table Today
 								</h2>
 								<div class="kf-bts">
 									<a href="#" class="kf-btn">
@@ -37,14 +38,15 @@
 				<div class="swiper-slide">
 
 					<div class="kf-started-item">
-						<div class="slide js-parallax" style="background-image: url(images/started_img_n5.jpg);"></div>
+						<div class="slide js-parallax" style="background-image: url(images/home/slider2.png);"></div>
 						<div class="container">
 							<div class="description align-left element-anim-1">
 								<div class="subtitles">
-									Welcome to the Kaffen
+									Welcome to Dolly’s Hideaway
 								</div>
 								<h2 class="name text-anim-1" data-splitting="chars">
-									The Paris<br>Coffee House
+									Reserve Your
+									<br>Table Today
 								</h2>
 								<div class="kf-bts">
 									<a href="#" class="kf-btn">
@@ -64,14 +66,15 @@
 				<div class="swiper-slide">
 
 					<div class="kf-started-item">
-						<div class="slide js-parallax" style="background-image: url(images/started_img_n3.jpg);"></div>
+						<div class="slide js-parallax" style="background-image: url(images/home/slider3.png);"></div>
 						<div class="container">
 							<div class="description align-left">
 								<div class="subtitles">
-									Welcome to the Kaffen
+									Welcome to Dolly’s Hideaway
 								</div>
 								<h2 class="name text-anim-1" data-splitting="chars">
-									Great Coffee <br>Good Vibes
+									Reserve Your
+									<br>Table Today
 								</h2>
 								<div class="kf-bts">
 									<a href="#" class="kf-btn">
@@ -108,7 +111,7 @@
 							About Us
 						</div>
 						<h3 class="kf-title element-anim-1 scroll-animate" data-animate="active">
-							Organic & Fresh Coffee <br>Provider Center
+							Choose Your Best Food <br> From Categories
 						</h3>
 					</div>
 
@@ -193,15 +196,15 @@
 	</section>
 
 	<!-- Section Menu -->
-	<section class="section kf-menu kf-parallax" style="background-image: url(images/category_bg.jpg);">
+	<section class="section kf-menu kf-parallax" style="background-image: url(images/home/bg.png);">
 		<div class="container">
 
 			<div class="kf-titles align-center">
 				<div class="kf-subtitle element-anim-1 scroll-animate" data-animate="active">
-					Choose Best Coffee
+					Choose Best Food
 				</div>
 				<h3 class="kf-title element-anim-1 scroll-animate" data-animate="active">
-					Kaffen Popular Coffee Menu
+					Dolly’s Hideaway Popular Menu
 				</h3>
 			</div>
 
@@ -214,9 +217,10 @@
 								<a href="#" class="has-popup-image"><img src="images/home/1.png" alt="" /></a>
 							</div>
 							<div class="desc">
-								<h5 class="name">lorem ipsum</h5>
-								<div class="subname">2/3 espresso, 1/3 streamed milk</div>
-								<div class="price">$4.9</div>
+								<h5 class="name">Americano Coffee</h5>
+								<div class="subname">mezcal, jalapeno, orange
+									liqueur, ginger, lime</div>
+								<div class="price">$18</div>
 							</div>
 						</div>
 					</div>
@@ -227,9 +231,9 @@
 								<a href="#" class="has-popup-image"><img src="images/home/2.png" alt="" /></a>
 							</div>
 							<div class="desc">
-								<h5 class="name">lorem ipsum</h5>
-								<div class="subname">2/3 espresso, 1/3 streamed milk</div>
-								<div class="price">$4.9</div>
+								<h5 class="name">Dolly’s Punch</h5>
+								<div class="subname">Dark rum, banana liqueur, pineapple, lime</div>
+								<div class="price">$18</div>
 							</div>
 						</div>
 					</div>
@@ -240,9 +244,10 @@
 								<a href="#" class="has-popup-image"><img src="images/home/3.png" alt="" /></a>
 							</div>
 							<div class="desc">
-								<h5 class="name">lorem ipsum</h5>
-								<div class="subname">2/3 espresso, 1/3 streamed milk</div>
-								<div class="price">$3.5</div>
+								<h5 class="name">Chicken Wings</h5>
+								<div class="subname">Choice of buffalo or korean bbq
+									served with a side ranch</div>
+								<div class="price">$18</div>
 							</div>
 						</div>
 					</div>
@@ -253,9 +258,9 @@
 								<a href="#" class="has-popup-image"><img src="images/home/4.png" alt="" /></a>
 							</div>
 							<div class="desc">
-								<h5 class="name">lorem ipsum</h5>
-								<div class="subname">2/3 espresso, 1/3 streamed milk</div>
-								<div class="price">$6.0</div>
+								<h5 class="name">DISCO TOTS</h5>
+								<div class="subname">Candied bacon</div>
+								<div class="price">$18</div>
 							</div>
 						</div>
 					</div>
@@ -266,9 +271,10 @@
 								<a href="#" class="has-popup-image"><img src="images/home/5.png" alt="" /></a>
 							</div>
 							<div class="desc">
-								<h5 class="name">Cappuccino Arabica</h5>
-								<div class="subname">2/3 espresso, 1/3 streamed milk</div>
-								<div class="price">$2.8</div>
+								<h5 class="name">CHICKEN BITES</h5>
+								<div class="subname">Choice of buffalo or Korean BBQServed with a side of ranch</div>
+								<div class="price">$18/div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -279,17 +285,17 @@
 								<a href="#" class="has-popup-image"><img src="images/home/6.png" alt="" /></a>
 							</div>
 							<div class="desc">
-								<h5 class="name">Milk Cream Coffee</h5>
-								<div class="subname">2/3 espresso, 1/3 streamed milk</div>
-								<div class="price">$7.5</div>
+								<h5 class="name">DV BURGER</h5>
+								<div class="subname">sirloin patty, gruyere, crispy onions, bacon jam</div>
+								<div class="price">$17</div>
 							</div>
 						</div>
 					</div>
 
-				</div>
-			</div>
 
-		</div>
+				</div>
+
+			</div>
 	</section>
 
 
@@ -310,13 +316,13 @@
 	<section class="section kf-choose section-bg">
 		<div class="container">
 			<div class="kf-parallax-icon pi-1" data-jarallax-element="-60">
-				<div class="p-icon" style="background-image: url(images/parallax_icon1.png);"></div>
+				<div class="p-icon" style="background-image: url(images/home/beer\ 1.png);"></div>
 			</div>
 			<div class="kf-parallax-icon pi-2" data-jarallax-element="-80">
-				<div class="p-icon" style="background-image: url(images/parallax_icon2.png);"></div>
+				<div class="p-icon" style="background-image: url(images/home/cooking\ 1.png);"></div>
 			</div>
 			<div class="kf-parallax-icon pi-3" data-jarallax-element="-40">
-				<div class="p-icon" style="background-image: url(images/parallax_icon3.png);"></div>
+				<div class="p-icon" style="background-image: url(images/home/cheers\ 1.png);"></div>
 			</div>
 
 			<div class="row">
@@ -352,7 +358,7 @@
 						<ul>
 							<li class="element-anim-1 scroll-animate" data-animate="active">
 								<div class="icon">
-									<img src="images/choose_icon1.png" alt="" />
+									<img src="images/home/restaurant 1.png" alt="" />
 								</div>
 								<div class="desc">
 									<h5 class="name"> A Culinary Escape Like No Other</h5>
@@ -363,13 +369,12 @@
 							</li>
 							<li class="element-anim-1 scroll-animate" data-animate="active">
 								<div class="icon">
-									<img src="images/choose_icon2.png" alt="" />
+									<img src="images/home/cocktail 1.png" alt="" />
 								</div>
 								<div class="desc">
-									<h5 class="name">100% ISO Certification</h5>
-									<div class="subname">we take pride in maintaining the highest standards of quality
-										and service. Our 100% ISO Certification reflects our commitment to excellence in
-										every dish we serve and every experience we create.</div>
+									<h5 class="name">Unmatched Hospitality</h5>
+									<div class="subname">From the moment you walk in, our friendly staff is dedicated to
+										making your visit comfortable, enjoyable, and memorable.</div>
 								</div>
 							</li>
 						</ul>
@@ -438,7 +443,7 @@
 
 	<!-- Section Testimonials Carousel -->
 	<section class="section kf-testimonials kf-testimonials-2 section-bg"
-		style="background-image: url(images/testimonials_bg2.jpg);">
+		style="background-image: url(images/home/bg-testi.png);">
 		<div class="container">
 
 			<div class="kf-titles align-center">
@@ -575,7 +580,7 @@
 						<div class="num">256+</div>
 						<div class="desc">
 							<h5 class="name">Premium Clients</h5>
-							<div class="subname">Sed ut perspiciatis unde</div>
+							<div class="subname">Taste the Excellence</div>
 						</div>
 					</div>
 				</div>
@@ -585,7 +590,7 @@
 						<div class="num">362+</div>
 						<div class="desc">
 							<h5 class="name">Expert Members</h5>
-							<div class="subname">Sed ut perspiciatis unde</div>
+							<div class="subname">Taste the Excellence</div>
 						</div>
 					</div>
 				</div>
@@ -595,7 +600,7 @@
 						<div class="num">753+</div>
 						<div class="desc">
 							<h5 class="name">Winning Awards</h5>
-							<div class="subname">Sed ut perspiciatis unde</div>
+							<div class="subname">Taste the Excellence</div>
 						</div>
 					</div>
 				</div>
@@ -606,7 +611,7 @@
 	</section>
 
 	<!-- Section Latest Blog -->
-	<section class="section kf-latest-blog section-bg">
+	<!-- <section class="section kf-latest-blog section-bg">
 		<div class="container">
 
 			<div class="kf-titles align-center">
@@ -671,7 +676,7 @@
 			</div>
 
 		</div>
-	</section>
+	</section> -->
 
 	<!-- Section CTA -->
 	<section class="section kf-cta kf-parallax" style="background-image: url(images/home/Section.png);">
@@ -689,19 +694,19 @@
 						</h3>
 						<br>
 						<div class="kf-field">
-										<input type="text" name="email" class="form-control" placeholder="email">
-									</div>
-									<br>
-									<a href="#" class="kf-btn element-anim-1 scroll-animate" data-animate="active">
-						<span>Submit</span>
-						<i class="fas fa-chevron-right"></i>
-					</a>
+							<input type="text" name="email" class="form-control" placeholder="email">
+						</div>
+						<br>
+						<a href="#" class="kf-btn element-anim-1 scroll-animate" data-animate="active">
+							<span>Submit</span>
+							<i class="fas fa-chevron-right"></i>
+						</a>
 					</div>
 
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
 
-					
+
 
 				</div>
 			</div>

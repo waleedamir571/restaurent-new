@@ -76,7 +76,7 @@
 						<!-- location -->
 						<div class="kf-h-group">
 							<i class="fas fa-map-marker-alt"></i>
-							<em>Location :</em> 55 main street, new york
+							<em>Location :</em> <a href="https://maps.app.goo.gl/vZohH7V27JvfXhCH7"> 302 West 51st Street, NY NY 10019/ </a>
 						</div>
 
 					</div>
@@ -125,10 +125,10 @@
 						<a href="#" class="kf-menu-btn"><span></span></a>
 
 						<!-- btn -->
-						<a href="https://www.opentable.com/r/dolly-varden-new-york?lang=EN&ref=18014&sp=ppc_g_us_restaurants&cmid=12654247124&aid=130824900160&tid=kwd-1408786232152&locp=9067609&loci=9004072&mt=&nw=g&d=c&cid=551855731420&pos=&gclid=CjwKCAjwj42UBhAAEiwACIhADtV3ns0DJYvE-0-ElmAzRCp_4OoMlRJAJr6E77NjzBjbI9GsPJC7WRoCkjsQAvD_BwE"
+						<!-- <a href="https://www.opentable.com/r/dolly-varden-new-york?lang=EN&ref=18014&sp=ppc_g_us_restaurants&cmid=12654247124&aid=130824900160&tid=kwd-1408786232152&locp=9067609&loci=9004072&mt=&nw=g&d=c&cid=551855731420&pos=&gclid=CjwKCAjwj42UBhAAEiwACIhADtV3ns0DJYvE-0-ElmAzRCp_4OoMlRJAJr6E77NjzBjbI9GsPJC7WRoCkjsQAvD_BwE"
 							class="kf-btn h-btn">
 							<span>Book a table</span>
-						</a>
+						</a> -->
 
 					</div>
 				</div>
@@ -164,10 +164,10 @@
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
 							<!-- mobile btn -->
-							<a href="#" class="kf-btn h-btn">
+							<!-- <a href="#" class="kf-btn h-btn">
 								<span>Book a table</span>
 								<i class="fas fa-chevron-right"></i>
-							</a>
+							</a> -->
 
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -195,7 +195,7 @@
 							<!-- location -->
 							<div class="kf-h-group">
 								<i class="fas fa-map-marker-alt"></i>
-								<em>Location :</em> 55 main street, new york
+								<em>Location :</em> <a href="https://maps.app.goo.gl/vZohH7V27JvfXhCH7"> 302 West 51st Street, NY NY 10019/ </a>
 							</div>
 
 						</div>

@@ -13,7 +13,7 @@
 
 						<!-- hours -->
 						<div class="kf-f-hours element-anim-1 scroll-animate" data-animate="active">
-							<h5>Working Hours</h5>
+							<h5>Opening Hours</h5>
 							<ul>
 								<li>
 									Monday - Thursday
@@ -61,7 +61,7 @@
 								<li>
 									<i class="las la-envelope-open-text"></i>
 									<em>Email Address :</em>
-									test@gmail.com
+									contact@dollyshideaway.com
 								</li>
 								<li>
 									<i class="las la-phone"></i>

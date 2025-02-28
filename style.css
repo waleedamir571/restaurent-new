@@ -4381,8 +4381,8 @@ button.mfp-close:before {
     margin-top: 30px;
     padding: 45px;
     position: relative;
-    min-height: 414px;
-    background: #090c0f
+    min-height: auto;
+    background: #090c0f;
 }
 
 .kf-contacts-item .image {

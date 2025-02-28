@@ -22,9 +22,9 @@
         <div class="kf-parallax-bg js-parallax" style="background-image: url(images/menu/menu.png);"></div>
         <div class="container">
 
-            <h1 class="kf-h-title text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">
+            <!-- <h1 class="kf-h-title text-anim-1 scroll-animate" data-splitting="chars" data-animate="active">
                 Restaurant Menu
-            </h1>
+            </h1> -->
 
         </div>
     </section>
@@ -294,12 +294,12 @@
 				<div class="col-xs-12 col-sm-12 col-md-12 ">
 
 					<div class="kf-titles">
-						<div class="kf-subtitle element-anim-1 scroll-animate" data-animate="active">
+						<!-- <div class="kf-subtitle element-anim-1 scroll-animate" data-animate="active">
 							Need a Table On Coffee House
-						</div>
-						<h3 class="kf-title element-anim-1 scroll-animate" data-animate="active">
+						</div> -->
+						<!-- <h3 class="kf-title element-anim-1 scroll-animate" data-animate="active">
 							Booking Table For Your & Family Members
-						</h3>
+						</h3> -->
 						<br>
 						<div class="kf-field">
 										<input type="text" name="email" class="form-control" placeholder="email">
@@ -694,7 +694,7 @@
     </section>
 
     <!-- Section Insta Carousel -->
-    <div class="section kf-brands">
+    <!-- <div class="section kf-brands">
         <div class="container">
 
             <div class="kf-brands-items row">
@@ -750,7 +750,7 @@
             </div>
 
         </div>
-    </div>
+    </div> -->
 
 </div>
 

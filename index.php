@@ -9,61 +9,32 @@
 				<div class="swiper-slide">
 
 					<div class="kf-started-item">
-						<div class="slide js-parallax" style="background-image: url(images/home/slider.png);">
+						<div class="slide js-parallax" style="position: relative;overflow: hidden;">
+							<!-- Video added here -->
+							<video playsinline autoplay muted loop style="width: 100%; height: 100%; object-fit: cover;">
+								<source src="images/home/v1.mp4" type="video/mp4">
+								
+							</video>
 						</div>
-						<div class="container">
-							<div class="description align-left element-anim-1">
-								<div class="subtitles">
-									Welcome to Dolly’s Hideaway
-								</div>
-								<h2 class="name text-anim-1" data-splitting="chars">
-									Reserve Your
-									<br>Table Today
-								</h2>
-								<div class="kf-bts">
-									<a href="#" class="kf-btn">
-										<span>explore more</span>
-										<i class="fas fa-chevron-right"></i>
-									</a>
-									<a href="#" class="kf-btn dark-btn">
-										<span>get delivery</span>
-										<i class="fas fa-chevron-right"></i>
-									</a>
-								</div>
-							</div>
-						</div>
+						
 					</div>
 
 				</div>
 				<div class="swiper-slide">
 
 					<div class="kf-started-item">
-						<div class="slide js-parallax" style="background-image: url(images/home/slider2.png);"></div>
-						<div class="container">
-							<div class="description align-left element-anim-1">
-								<div class="subtitles">
-									Welcome to Dolly’s Hideaway
-								</div>
-								<h2 class="name text-anim-1" data-splitting="chars">
-									Reserve Your
-									<br>Table Today
-								</h2>
-								<div class="kf-bts">
-									<a href="#" class="kf-btn">
-										<span>explore more</span>
-										<i class="fas fa-chevron-right"></i>
-									</a>
-									<a href="#" class="kf-btn dark-btn">
-										<span>get delivery</span>
-										<i class="fas fa-chevron-right"></i>
-									</a>
-								</div>
-							</div>
+						<div class="slide js-parallax" style="position: relative;overflow: hidden;">
+							<!-- Video added here -->
+							<video playsinline autoplay muted loop style="width: 100%; height: 100%; object-fit: cover;">
+								<source src="images/home/v2.mp4" type="video/mp4">
+								
+							</video>
 						</div>
+						
 					</div>
 
 				</div>
-				<div class="swiper-slide">
+				<!-- <div class="swiper-slide">
 
 					<div class="kf-started-item">
 						<div class="slide js-parallax" style="background-image: url(images/home/slider3.png);"></div>
@@ -72,25 +43,12 @@
 								<div class="subtitles">
 									Welcome to Dolly’s Hideaway
 								</div>
-								<h2 class="name text-anim-1" data-splitting="chars">
-									Reserve Your
-									<br>Table Today
-								</h2>
-								<div class="kf-bts">
-									<a href="#" class="kf-btn">
-										<span>explore more</span>
-										<i class="fas fa-chevron-right"></i>
-									</a>
-									<a href="3" class="kf-btn dark-btn">
-										<span>get delivery</span>
-										<i class="fas fa-chevron-right"></i>
-									</a>
-								</div>
+							
 							</div>
 						</div>
 					</div>
 
-				</div>
+				</div> -->
 			</div>
 
 			<div class="swiper-button-prev"></div>
@@ -166,7 +124,7 @@
 					</div>
 				</div>
 
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+				<!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 					<div class="kf-services-item element-anim-1 scroll-animate" data-animate="active">
 						<div class="image kf-image-hover">
 							<a href="#"><img src="images/home/r1.png" alt="" /></a>
@@ -176,9 +134,9 @@
 							<h5 class="name">Coffee Menu</h5>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+				<!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 					<div class="kf-services-item element-anim-1 scroll-animate" data-animate="active">
 						<div class="image kf-image-hover">
 							<a href="#"><img src="images/home/r3.png" alt="" /></a>
@@ -188,7 +146,7 @@
 							<h5 class="name">Food Services</h5>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 			</div>
 
@@ -200,9 +158,9 @@
 		<div class="container">
 
 			<div class="kf-titles align-center">
-				<div class="kf-subtitle element-anim-1 scroll-animate" data-animate="active">
+				<!-- <div class="kf-subtitle element-anim-1 scroll-animate" data-animate="active">
 					Choose Best Food
-				</div>
+				</div> -->
 				<h3 class="kf-title element-anim-1 scroll-animate" data-animate="active">
 					Dolly’s Hideaway Popular Menu
 				</h3>
@@ -686,12 +644,12 @@
 				<div class="col-xs-12 col-sm-12 col-md-12 ">
 
 					<div class="kf-titles">
-						<div class="kf-subtitle element-anim-1 scroll-animate" data-animate="active">
+						<!-- <div class="kf-subtitle element-anim-1 scroll-animate" data-animate="active">
 							Need a Table On Coffee House
 						</div>
 						<h3 class="kf-title element-anim-1 scroll-animate" data-animate="active">
 							Booking Table For Your & Family Members
-						</h3>
+						</h3> -->
 						<br>
 						<div class="kf-field">
 							<input type="text" name="email" class="form-control" placeholder="email">

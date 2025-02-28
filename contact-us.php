@@ -29,8 +29,7 @@
 								<div class="desc">
 									<h5 class="name">Main Location</h5>
 									<ul>
-										<li>55 Main Street, 2nd Block, <br>3rd Floor, New York</li>
-										<li>394 Main Street, 2nd Block, <br>3rd Floor, USA</li>
+										<li>302 W 51st St, New York, NY 10019,
 									</ul>
 								</div>
 							</div>
@@ -45,8 +44,7 @@
 								<div class="desc">
 									<h5 class="name">Email Address</h5>
 									<ul>
-										<li>kaffendev@gmail.com <br>kaffendev@gmail.com</li>
-										<li>kaffendev@gmail.com <br>kaffendev@gmail.com</li>
+										<li>contact@dollyshideaway.com 
 									</ul>
 								</div>
 							</div>
@@ -61,8 +59,7 @@
 								<div class="desc">
 									<h5 class="name">Phone Number</h5>
 									<ul>
-										<li>+012 (345) 678 99 <br>123456780</li>
-										<li>+012 (345) 678 99 <br>123456780</li>
+										<li>+012 (345) 678 99 
 									</ul>
 								</div>
 							</div>
@@ -292,7 +289,7 @@
             </div>
 
 			<!-- Section Brands -->
-			<div class="section kf-brands">
+			<!-- <div class="section kf-brands">
 				<div class="container">
 
 					<div class="kf-brands-items row">
@@ -348,7 +345,7 @@
 					</div>
 
 				</div>
-			</div>
+			</div> -->
 
 		</div>
 
